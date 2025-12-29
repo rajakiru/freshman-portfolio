@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About Me - Kiruthika </title>
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+@import url(about_new.css);
+</style>
+</head>
+
+<body>
+
+<nav class="navigation">
+    <a href="#Welcome"><span class="dot"></span></a>
+    <a href="#AboutMe"><span class="dot"></span></a>
+    <a href="#Education"><span class="dot"></span></a>
+    <a href="#Research"><span class="dot"></span></a>
+    <a href="#Hobbies"><span class="dot"></span></a>
+    <a href="#Contact"><span class="dot"></span></a>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#Welcome"> 01 Welcome</a>
+  <a href="#AboutMe"> 02 About Me</a>
+  <a href="#Education"> 03 Education</a>
+  <a href="#Research"> 04 Research</a>
+  <a href="#Hobbies" class="menu_hobbies"> 05 Hobbies</a>
+    <ul class="list_hobbies">
+      <a href="books.html" target="_blank">&nbsp 1.Books </a>
+      <a href="movies.html" target="_blank">&nbsp 2.Movies </a>
+      <a href="others.html" target="_blank">&nbsp 3.Others </a>
+    </ul>
+  <a href="#Contact"> 06 Contact</a>
+</div>
+
+<span class="nav_menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i> </span>
+<!-- <span class="dark_mode_toggle" onclick="toggleDarkMode()"><i class="fa fa-moon-o" aria-hidden="true"></i></span> -->
+
+<!-- WELCOME PAGE -->
+<section class="section1" id="Welcome">
+  <div class="lines">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  </div>
+  <div class="text-center">
+  <div class="number">00001</div>
+  <div class="text title_container"> Hi, I'm Kiruthika </div>
+  </div>
+  <br><br>
+</section>
+
+<!-- ABOUT ME -->
+<section class="section2" id="AboutMe">
+<div class="number">00002</div>
+<p id="name2"> About Me </p>
+<div class="split_grid">
+  <div class="left_container">
+  <h1>Hi, there!</h1>
+  <p id="text1"> I am an 18yr old first year undergraduate student. Living in Japan. <br><br> </p>
+  <p id="text2"> Born in India and raised in Japan. I was influenced by various
+  cultures throughout my childhood. My family consists of me, my parents and my
+  younger sister. I am currently pursuing a Bachelors Degree in Computer Engineering.  </br> </p>
+  </div>
+  <div class="right_container">
+    <!-- Slideshow container -->
+      <div class="slideshow-container">
+          <div class="mySlides fade">
+              <img src="Images/1.PNG"class="slideshow_images" alt="Image of Me(Kiruthika)"/>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="Images/3.PNG" class="slideshow_images" alt="Image of me and my sister after skiing"/>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="Images/2.PNG" class="slideshow_images" alt="Image of me and my friend in the beach running away"/>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="Images/4.PNG" class="slideshow_images" alt="Image of my back facing camera looking at river">
+          </div>
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div class="text-center">
+          <span class="pic_dot" onclick="currentSlide(1)"></span>
+          <span class="pic_dot" onclick="currentSlide(2)"></span>
+          <span class="pic_dot" onclick="currentSlide(3)"></span>
+          <span class="pic_dot" onclick="currentSlide(4)"></span>
+        </div>
+  </div>
+</div>
+<div class="split_grid prev-next">
+  <div class="left_container text-center center-align boxed text_anchor"><a href="#Welcome"> Previous </a></div>
+  <div class = "right_container text-center center-align boxed text_anchor"><a href="#Education"> Next </a></div>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section3" id="Education">
+<div class="number">00003</div>
+<p id="name2"> Education </p>
+<div class="timeline">
+    <div class="education_grid">
+    <div class="education_1"><img class="education_image" src="Images/tired.png" alt="Image of person lying on the desk"></div>
+    <div class="education_container_1">
+      <div class="education_container_box">
+
+          <div class="education_block">
+            <p class="institute">India International School In Japan | IISJ </p>
+            <p class="institute_role"> Elementary, Middle and High School</p>
+          </div>
+          <div class="education__item">
+            <div class="education__time">2007 - 2020</div>
+          </div>
+        </div>
+
+        <div class="details">
+          Except for the few months of first grade I studied at my hometown in India,
+          I did majority of my schooling at India International School in Japan.
+          During high school I studied Math, Physics, Chemistry, Biology and English.
+        </div>
+      </div>
+
+      <div class="education_2"><img class="education_image" src="Images/study.png" alt="Image of person and a book"></div>
+      <div class="education_container_2">
+        <div class="education_container_box">
+
+          <div class="education_block">
+            <p class="institute">Shibaura Institute of Technology | SIT </p>
+            <p class="institute_role">University (Bachelors Degree)</p>
+            </div>
+          <div class="education__item">
+            <div class="education__time">2020 - 2024</div>
+          </div>
+        </div>
+
+        <div class="details">
+          I am currently a first year undergraduate student at SIT pursuing a bachelor's
+          degree in computer engineering. My research so far at SIT has been focused
+          on social robots and improving human-robot interaction.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="split_grid prev-next">
+    <div class="left_container text-center center-align boxed text_anchor"><a href="#AboutMe"> Previous </a></div>
+    <div class = "right_container text-center center-align boxed text_anchor"><a href="#Research"> Next </a></div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="section4" id="Research">
+<div class="number">00004</div>
+<p id="name2"> Research </p>
+<div class="research_card_container text_anchor">
+<div class="research_card">
+  <div class="imgBox">
+    <img src="Images/spaceX.jpeg" alt="Image of spaceX rocket">
+    <img src="Images/robot1.jpeg" alt="Image of robot">
+  </div>
+  <div class="details">
+    <div class="content">
+      <p id="text1" class="text-center">Effect of Emotion Synchronization for Robot Facial Expressions<br><br></p>
+      <p id="text3"> With the recent developments in fields like Artificial Intelligence and Robotics,
+         the rise of social robots is not far away. For social robots to establish better
+         human interaction, they must be able to interact with people casually. In this
+         research, we introduce the idea of empathy in robots by syncing our emotions with the
+         robot's facial expression. </p>
+         <br><br>
+      <span><a href="https://www.springer.com/gp/book/9783030786410" target="_blank">Click here to read full paper</a></span>
+    </div>
+  </div>
+</div>
+</div>
+<div class="split_grid prev-next">
+  <div class="left_container text-center center-align boxed text_anchor"><a href="#Research"> Previous </a></div>
+  <div class = "right_container text-center center-align boxed text_anchor"><a href="#Contact"> Next </a></div>
+</div>
+</section>
+
+<!-- HOBBIES -->
+<section class="section5" id="Hobbies">
+<div class="number">00005</div>
+<p id="name2"> Hobbies </p>
+<div class="hobbies_grid">
+  <div class="hobbies_text" id="text2">
+    When I'm not studying you can find me reading books, watching movies,
+    editing, eating or sleeping 😅.
+    I also occasionally enjoy solving puzzles, painting, baking, skiing, hiking
+    and embroidery.
+  </div>
+  <div class="hobbies_grid_image">
+    <img class="hobby_image" src="Images/girl.jpg" alt="girl sleeping or falling down">
+  </div>
+  <div class="hobbies_nav">
+    <div class="hobbies_cards_flex">
+        <div class="hobbies_card">
+          <a href="books.html">
+            <img class="hobbies_nav_image" src="Images/books.png" alt="Image of book"/>
+            <span class="caption text_anchor text-center"> 01. Books </span></a>
+        </div>
+        <div class="hobbies_card">
+          <a href="movies.html">
+          <img class="hobbies_nav_image" src="Images/movies.png" alt="Image of movie"/>
+          <span class="caption text_anchor text-center"> 02. Movies </span></a>
+        </div>
+        <div class="hobbies_card">
+          <a href="others.html">
+          <img class="hobbies_nav_image" src="Images/hiking.png" alt="Image showing hiking"/>
+          <span class="caption text_anchor text-center">03. Others </span></a>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="split_grid prev-next">
+  <div class="left_container text-center center-align boxed text_anchor"><a href="#Research"> Previous </a></div>
+  <div class = "right_container text-center center-align boxed text_anchor"><a href="#Contact"> Next </a></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="section6" id="Contact">
+<div class="number">00006</div>
+<p id="name2"> Contacts </p>
+<div class="contacts_text" id="text2">
+    Here are a few places where you can reach me and other contacts
+    for futher information.
+</div>
+<div class="social-icons">
+  <a href="mailto:xyz@yahoo.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp Email </a>
+  <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i>&nbsp Twitter</a>
+  <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i>&nbsp &nbspFacebook</a>
+  <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i>&nbsp   LinkedIn</a>
+  <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i>&nbsp   Instagram</a>
+</div>
+<br><br><br><br>
+<a href=#Welcome><div class="boxed center-align text-center text_anchor"> Back to Top </a></div>
+
+<!-- FOOTER -->
+<!-- <footer class="footer">
+  <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6687043441125!2d139.7948506!3d35.660533199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889a07930e2f9%3A0x62e41ee20b961991!2sShibaura%20Institute%20of%20Technology%20Toyosu%20Campus!5e0!3m2!1sen!2sjp!4v1622080883888!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+</footer> -->
+
+<script  src="./about.js"></script>
+</body>
+</html>
